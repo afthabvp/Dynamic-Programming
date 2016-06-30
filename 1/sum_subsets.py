@@ -1,3 +1,23 @@
+""" 
+Given an array of N elements, consider all subsets ( 2^^N ),
+ now sort the subsets based upon the sum of elements in it, and then 
+ find the K'th subset from the list of sorted subsets.
+
+
+ Eg. array = {1,2,3}
+Subsets sorted acc. to sum
+{ Phi }
+{1}
+{2}
+{1,2}
+{3}
+{1,3}
+{2,3}
+{1,2,3}
+
+for K = 4, ans can be either {1,2} or {3}
+
+""" 
 
 def  findSortedUptoK(output_list,current_element):
 	temp_list=[[]]
